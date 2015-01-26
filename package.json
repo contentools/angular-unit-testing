@@ -1,0 +1,14 @@
+{
+  "name": "angular-unit-testing",
+  "description": "",
+  "version": "0.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.8.0",
+    "karma": "~0.12.16",
+    "karma-coverage": "^0.2.4",
+    "karma-jasmine": "^0.2.2",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}

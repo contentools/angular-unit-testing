@@ -1,0 +1,53 @@
+{
+	"env": {
+		"VENDOR_PATH": "./vendor",
+		"MODULE_PATH": "./src"
+	},
+
+	"dependencies": {
+		"jquery": "jquery/dist/jquery.js",
+		"angular": "angular/angular.js",
+		"ui.router": "angular-ui-router/release/angular-ui-router.js",
+		"EventEmitter": "event-emitter/EventEmitter.js",
+		"screenfull": "screenfull/screenfull.min.js",
+		"moment": [
+			"moment/moment.js",
+			"moment-cleartime/moment-cleartime.js"
+		]
+	},
+
+	"adapters": {
+		"moment": {
+			"exports": "moment",
+			"depends": "angular"
+		},
+
+		"EventEmitter": {
+			"exports": "EventEmitter",
+			"depends": "angular"
+		},
+
+		"screenfull": {
+			"exports": "screenfull",
+			"depends": "angular"
+		},
+
+		"ui.router": {
+			"depends": "angular"
+		},
+
+		"angular": {
+			"depends": "jquery"
+		}
+	},
+
+	"modules": ["profile", "task"],
+	"apps": ["app"],
+
+	"docs": {
+		"moment": "injecting moment will inject the value of window.moment",
+		"EventEmitter": "when injected, EventEmitter will hold the value of window.EventEmitter",
+		"app": "top-level app",
+		"task or profile": "domain module"
+	}
+}
