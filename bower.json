@@ -1,0 +1,24 @@
+{
+  "name": "angular-unit-testing",
+  "version": "0.0.0",
+  "homepage": "https://github.com/contentools/angular-unit-testing",
+  "authors": [
+    "Darlan Alves <me@darlanalv.es>"
+  ],
+  "description": "This repo will serve as a reference for our unit tests",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-ui-router": "~0.2.13",
+    "angular": "~1.3.10",
+    "jquery": "~2.1.3",
+    "moment": ">=2.5.0"
+  }
+}
