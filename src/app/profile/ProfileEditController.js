@@ -4,7 +4,7 @@
 	 */
 	function ProfileEditController(profile, ProfileService) {
 		var vm = this;
-		vm.profile = profile;
+		// vm.profile = profile;
 		vm.update = update;
 
 		function update() {

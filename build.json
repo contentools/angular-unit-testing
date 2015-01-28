@@ -1,7 +1,7 @@
 {
 	"env": {
-		"VENDOR_PATH": "./vendor",
-		"MODULE_PATH": "./src"
+		"VENDOR_PATH": "vendor/",
+		"MODULE_PATH": "src/"
 	},
 
 	"dependencies": {
@@ -42,12 +42,5 @@
 	},
 
 	"modules": ["profile", "task"],
-	"apps": ["app"],
-
-	"docs": {
-		"moment": "injecting moment will inject the value of window.moment",
-		"EventEmitter": "when injected, EventEmitter will hold the value of window.EventEmitter",
-		"app": "top-level app",
-		"task or profile": "domain module"
-	}
+	"apps": ["app"]
 }
