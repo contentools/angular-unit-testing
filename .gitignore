@@ -1,3 +1,6 @@
+*node_modules*
+*/test/coverage
+kata-01/public
 .build
 node_modules
 vendor

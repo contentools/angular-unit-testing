@@ -1,0 +1,5 @@
+{
+	"jasmine": true,
+	"browser": true,
+	"strict": false
+}
